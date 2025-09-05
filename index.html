@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surya Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="logo">Surya Restaurant</div>
+    <div class="menu-toggle">☰</div>
+    <ul class="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#reservation">Reservation</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div>
+      <h1>Welcome to Surya Restaurant</h1>
+      <p>Delicious food & unforgettable dining experience</p>
+      <a href="#menu" class="btn">Explore Menu</a>
+    </div>
+  </section>
+
+    <!-- About -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      Welcome to <strong>Surya Restaurant</strong>, where tradition meets taste. 
+      Established with a vision to serve authentic Indian flavors, we bring you a dining experience 
+      that celebrates rich spices, fresh ingredients, and heartfelt hospitality. 
+    </p>
+    <p>
+      At Surya, food is more than just a meal — it’s a celebration of culture and togetherness. 
+      Our chefs craft every dish with passion, ensuring every bite tells a story of India’s diverse culinary heritage. 
+      From classic vegetarian delicacies to mouth-watering non-vegetarian delights, we have something for everyone. 
+    </p>
+    <p>
+      Whether you’re here for a casual family dinner, a romantic date, or a festive celebration, 
+      our warm ambiance, friendly staff, and top-quality service will make your visit truly memorable. 
+      Surya Restaurant is not just about food — it’s about creating unforgettable experiences.
+    </p>
+  </section>
+
+
+  <!-- Menu -->
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="card">
+        <img src="c:\Users\aptek\Downloads\images.jpeg" alt="Paneer Butter Masala">
+        <h3>Paneer Butter Masala</h3>
+        <p>Rich creamy curry with fresh paneer.</p>
+      </div>
+      <div class="card">
+        <img src="c:\Users\aptek\Downloads\briyani.jpg" alt="Chicken Biryani">
+        <h3>Chicken Biryani</h3>
+        <p>Fragrant rice cooked with tender chicken & spices.</p>
+      </div>
+      <div class="card">
+        <img src="c:\Users\aptek\Downloads\thali.jpg" alt="Veg Thali">
+        <h3>Veg Thali</h3>
+        <p>A wholesome platter of Indian delicacies.</p>
+      </div>
+      <div class="card">
+        <img src="c:\Users\aptek\Downloads\brownie.jpg" alt="Chocolate Brownie">
+        <h3>Chocolate Brownie</h3>
+        <p>Perfect dessert to end your meal.</p>
+      </div>
+      <div class="card">
+        <img src="c:\Users\aptek\Downloads\machurien.jpg" alt="Veg Manchurian">
+        <h3>Veg Manchurian</h3>
+        <p>Spicy Indo-Chinese starter with veggies.</p>
+      </div>
+      <div class="card">
+        <img src="c:\Users\aptek\Downloads\tikka.jpg" alt="Paneer Tikka">
+        <h3>Paneer Tikka</h3>
+        <p>Grilled paneer cubes marinated with spices.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservation -->
+  <section id="reservation">
+    <h2>Book a Table</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" required>
+
+      <label for="time">Time:</label>
+      <input type="time" id="time" required>
+
+      <label for="guests">Number of Guests:</label>
+      <input type="number" id="guests" min="1" max="20" required>
+
+      <button type="submit">Reserve Now</button>
+    </form>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@suryarestaurant.com | Phone: +91 9876543210</p>
+    <p>Address: MG Road, Pune, India</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Surya Restaurant. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
