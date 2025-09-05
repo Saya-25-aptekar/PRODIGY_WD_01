@@ -18,11 +18,15 @@ Through this task, I:
 ## 📂 Project Structure  
 PRODIGY_WD_01/
 
-│── index.html      
-│── style.css        
-│── script.js        
-│── README.md       
-│── screenshot.png   
+│── index.html 
+│── style.css 
+│── script.js 
+│── README.md 
+│── homepage_webpage.png 
+│── about_webpage.png
+│── contact_webpage.png 
+│── menu_webpage.png 
+│── reservation_webpage.png 
 
 ## 📸 Demo Preview  
 
