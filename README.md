@@ -23,3 +23,14 @@ PRODIGY_WD_01/
 │── script.js        
 │── README.md       
 │── screenshot.png   
+
+## 📸 Demo Preview  
+
+### 🏠 Homepage  
+![Homepage Screenshot](homepage_webpage.png)  
+
+### ℹ️ About Page  
+![About Page Screenshot](about_webpage.png)  
+
+### 📞 Contact Page  
+![Contact Page Screenshot](contact_webpage.png)  
