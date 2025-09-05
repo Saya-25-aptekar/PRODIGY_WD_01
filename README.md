@@ -34,3 +34,9 @@ PRODIGY_WD_01/
 
 ### 📞 Contact Page  
 ![Contact Page Screenshot](contact_webpage.png)  
+
+### 🍽️ Menu Page  
+![Menu Page Screenshot](menu_webpage.png)  
+
+### 📝 Reservation Page  
+![Reservation Page Screenshot](reservation_webpage.png)  
